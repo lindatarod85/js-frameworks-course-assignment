@@ -4,7 +4,6 @@ import useApi from '../hooks/useApi';
 import ProductCard from './ProductCard';
 import styles from '../styles/Home.module.css';
 
-
 function Home() {
   const { data, isLoading, isError } = useApi(
     ' https://api.noroff.dev/api/v1/online-shop',
