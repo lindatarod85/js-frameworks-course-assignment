@@ -1,49 +1,52 @@
-.form{
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.input, .body{
+.input,
+.body {
     width: 400px;
 }
 
-.body{
+.body {
     height: 80px;
 }
 
 
-.h1{
+.h1 {
     text-align: center;
     padding: 20px;
 }
 
-.button{
+.button {
     background-color: #E5E4E2;
     border-radius: 50px;
     color: black;
     width: 150px;
-    box-shadow: 5px 5px 5px  grey;
-    transition: transform .6s; 
+    box-shadow: 5px 5px 5px grey;
+    transition: transform .6s;
     border: none;
     cursor: pointer;
 }
 
-.button:hover{
-    box-shadow: 8px 8px 16px  grey;
+.button:hover {
+    box-shadow: 8px 8px 16px grey;
 }
 
-.error{
+.error {
     color: red;
 }
 
-.confirmation{
+.confirmation {
     text-align: center;
     color: green;
 }
 
-@media(max-width: 500px){
-    .input, .body{
+@media(max-width: 500px) {
+
+    .input,
+    .body {
         width: 250px;
     }
 }

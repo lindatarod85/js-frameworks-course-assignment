@@ -1,4 +1,4 @@
-.singleProdContainer{
+.singleProdContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -6,75 +6,74 @@
     padding: 20px 40px;
 }
 
-.h1{
+.h1 {
     grid-column: -1/1;
 }
 
-.img{
+.img {
     width: 550px;
     height: 550px;
     object-fit: cover;
 }
 
-.button{
+.button {
     background-color: #E5E4E2;
     padding: 10px;
     border-radius: 50px;
     color: black;
     width: 150px;
-    box-shadow: 5px 5px 5px  grey;
-    transition: transform .6s; 
+    box-shadow: 5px 5px 5px grey;
+    transition: transform .6s;
     border: none;
     cursor: pointer;
 }
 
-.button:hover{
-    transform: scale(1.1); 
-    box-shadow: 8px 8px 16px  grey;
-    
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 8px 16px grey;
+
 }
 
-.price{
+.price {
     font-size: 20px;
 }
 
-.discount{
+.discount {
     color: red;
 }
 
-.loading{
+.loading {
     padding: 20px 40px;
 }
 
-@media(max-width: 1150px){
-    .singleProdContainer{
+@media(max-width: 1150px) {
+    .singleProdContainer {
         width: 900px;
     }
 
-    .img{
+    .img {
         width: 450px;
         height: 450px;
     }
 }
 
-@media(max-width: 950px){
-    .singleProdContainer{
-       grid-template-columns: 1fr;
+@media(max-width: 950px) {
+    .singleProdContainer {
+        grid-template-columns: 1fr;
     }
 
-    
+
 }
 
-@media(max-width: 550px){
-    .singleProdContainer{
-       width: 200px;
+@media(max-width: 550px) {
+    .singleProdContainer {
+        width: 200px;
     }
 
-    .img{
+    .img {
         width: 200px;
         height: 200px;
     }
 
-    
-}
 
+}

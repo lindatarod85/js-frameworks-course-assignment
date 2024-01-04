@@ -1,39 +1,36 @@
-ul{
+ul {
     display: flex;
     width: 250px;
     justify-content: space-between;
     margin: 0;
 }
 
-.link{
+.link {
     text-decoration: none;
     font-size: 20px;
     color: black;
 }
 
-.link:hover{
+.link:hover {
     text-decoration: underline;
     text-underline-position: under;
 }
 
-.active{
+.active {
     text-decoration: underline;
     text-underline-position: under;
 }
 
-@media(max-width: 600px){
-    ul{
+@media(max-width: 600px) {
+    ul {
         flex-direction: column;
         padding-left: 0;
         margin-top: 10px;
     }
 
-    .link{
+    .link {
         margin-bottom: 10px;
         display: inline-block;
     }
 
 }
-
-
-

@@ -1,25 +1,25 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
     background-color: #E5E4E2;
 }
 
-header li{
+header li {
     list-style-type: none;
 }
 
-.logo{
+.logo {
     font-size: 20px;
     color: black;
 }
 
-.link{
+.link {
     text-decoration: none;
 }
 
-@media(max-width: 600px){
-    header{
-    flex-direction: column;
+@media(max-width: 600px) {
+    header {
+        flex-direction: column;
     }
 }

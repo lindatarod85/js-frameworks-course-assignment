@@ -13,18 +13,18 @@ function App() {
 
   return (
     <CartProvider>
-    <div>
-    <Routes>
-      <Route path="/" element={<Layout />}>
-      <Route index element={<Home />} />
-      <Route path="/product/:id" element={<ProductPage />} />
-      <Route path="/cart" element={<CartPage />} />
-      <Route path="/CheckoutSuccessPage" element={<CheckoutSuccessPage />} />
-      <Route path="/contact" element={<ContactPage />} />
-      </Route>
-    </Routes>
-  </div>
-  </CartProvider>
+      <div>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/product/:id" element={<ProductPage />} />
+            <Route path="/cart" element={<CartPage />} />
+            <Route path="/CheckoutSuccessPage" element={<CheckoutSuccessPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Route>
+        </Routes>
+      </div>
+    </CartProvider>
   );
 }
 
