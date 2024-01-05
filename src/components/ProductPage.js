@@ -1,5 +1,4 @@
 import { useParams } from 'react-router-dom';
-import React, { useState } from 'react';
 import useApi from '../hooks/useApi';
 import { CartContext } from './CartContext';
 import { useContext } from 'react';
