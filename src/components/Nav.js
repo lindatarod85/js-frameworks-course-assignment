@@ -3,7 +3,6 @@ import CartIcon from './CartIcon';
 import styles from '../styles/Nav.module.css';
 
 
-
 function Nav() {
 
   return (
