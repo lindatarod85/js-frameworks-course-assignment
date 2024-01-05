@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import styles from '../styles/CartPage.module.css';
 
 function CartPage() {
-  const { cartItems, addToCart, clearCart } = useContext(CartContext);
+  const { cartItems, clearCart } = useContext(CartContext);
   const navigate = useNavigate();
 
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
