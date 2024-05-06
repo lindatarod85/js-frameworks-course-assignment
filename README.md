@@ -2,7 +2,7 @@
 
 ![image](https://i.postimg.cc/rmtqmFCK/Skjermbilde-2024-05-06-kl-17-07-01.png)
 
-An E-commerce website where items can be bought.
+An E-commerce website where products can be viewed and bought.
 
 ## Description
 
